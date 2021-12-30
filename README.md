@@ -20,11 +20,24 @@ we have extended CARL-Dataset for road detection and segmentation task. As CARL-
 
 # Description of folders and scripts
 My project includes the following files scripts and folders:
--  main.py is the main code for demos.
--  project_tests.py includes the unittest.
+-  CARL_DATASET folder contains the only the road images and corresponding label images.
+-  train_seg_maps folder is used to save the prediction of the trained model on rondomly selected image during validation process.
+-  runs folder contains the segmentation logs of the testing data.
+-  utils folder contains the files such as (i) helper.py and (ii) metrics.py. 
+-  config.py is the configation file, where dataset path and name and number of classes mentioned. Check every other parameters in config.py as per your requirement.
+-  dataset.py includes the functions regarding dataset.
 -  helper.py includes some helper functions.
--  env-gpu-py35.yml is environmental file with GPU and Python3.5.
--  data folder contains the KITTI road data, the VGG model and source images.
--  model folder is used to save the trained model.
--  runs folder contains the segmentation examples of the testing data.
+-  train.py is used to train the model. 
+-  road_detection_test.py is used to infer the model on test image.
+-  road_detection_angle_estimation_test.py is used to infer the model on the test image and predict the angle. 
+-  SteeringAngleUtils.py is used to compute the steering angle againt the given test image. 
+-  test_vid.py is used to detect road on given video input. 
+-  model.py is used to train the model from scratch.
+-  engine.py is used to save the model as a model.pth.
+-  metrics.py includes some helper functions regarding evalution of performance matrics.
+#How to run the Python scripts
+##For Training 
+##For Testing 
+###test the model on the image 
+###test the model on the video 
 

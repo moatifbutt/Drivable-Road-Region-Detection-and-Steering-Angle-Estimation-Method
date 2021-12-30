@@ -44,5 +44,16 @@ python train.py --resume-training no.
 ```
 ## For Testing 
 ### Test the model on the image 
+-  Use this python script to apply pixel level segmentation on any image of your choice.
+```
+python test_road_detection.py --model-path <path to saved checkpoint/weight file> --input <path to vid>.
+```
+example: python test.py --model-path model.pth --input abc.jpg
 ### Test the model on the video 
+-  Use this python script to apply pixel level segmentation on any videos of your choice.
+```
+python test_vid.py --input <path to vid> --model-path <path to saved checkpoint/weight file>.
+```
+example: python test_vid.py --input DSC_0006.mp4 --model-path model.pth
+
 

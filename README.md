@@ -55,5 +55,3 @@ example: python test.py --model-path model.pth --input abc.jpg
 python test_vid.py --input <path to vid> --model-path <path to saved checkpoint/weight file>.
 ```
 example: python test_vid.py --input DSC_0006.mp4 --model-path model.pth
-
-

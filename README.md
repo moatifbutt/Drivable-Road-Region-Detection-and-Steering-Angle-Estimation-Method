@@ -7,10 +7,10 @@ A PyTorch implementation of the  Road Dataset semantic segmentation using FULLY 
 ![4 21168_ov](https://user-images.githubusercontent.com/71174927/147745788-05eb26a4-f6a4-4761-87ca-c86e16e761ca.jpg)
 ![4 24633_ov](https://user-images.githubusercontent.com/71174927/147745840-9df41a44-f05c-4ce5-be18-3a3c221327e4.jpg)
 # Prerequisites
-Window,
-Python
-PyTorch
-Albumentations == 1.1.0 
-Tensorboard == 2.7.0 
-TensorboardX == 2.4.1
+1. Windows
+2. Anocanda Python
+3. PyTorch
+4. Albumentations == 1.1.0 
+5. Tensorboard == 2.7.0 
+6. TensorboardX == 2.4.1
 

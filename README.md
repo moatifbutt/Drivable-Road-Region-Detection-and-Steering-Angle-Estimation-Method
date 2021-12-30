@@ -19,12 +19,12 @@ we have extended CARL-Dataset for road detection and segmentation task. As CARL-
  https://user-images.githubusercontent.com/71174927/147775570-bc58cbf2-7bcb-4c8b-9c40-09ffe39feb7f.mp4
 
 # Description of folders and scripts
-My project includes the following files scripts and folders
-⋅⋅* main.py is the main code for demos.
-⋅⋅* project_tests.py includes the unittest.
-⋅⋅* helper.py includes some helper functions.
-⋅⋅* env-gpu-py35.yml is environmental file with GPU and Python3.5.
-⋅⋅* data folder contains the KITTI road data, the VGG model and source images.
-⋅⋅* model folder is used to save the trained model.
-⋅⋅* runs folder contains the segmentation examples of the testing data.
+My project includes the following files scripts and folders:
+-  main.py is the main code for demos.
+-  project_tests.py includes the unittest.
+-  helper.py includes some helper functions.
+-  env-gpu-py35.yml is environmental file with GPU and Python3.5.
+-  data folder contains the KITTI road data, the VGG model and source images.
+-  model folder is used to save the trained model.
+-  runs folder contains the segmentation examples of the testing data.
 

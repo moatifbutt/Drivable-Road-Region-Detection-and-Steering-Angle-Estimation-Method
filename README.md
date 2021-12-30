@@ -35,9 +35,14 @@ My project includes the following files scripts and folders:
 -  model.py is used to train the model from scratch.
 -  engine.py is used to save the model as a model.pth.
 -  metrics.py includes some helper functions regarding evalution of performance matrics.
-#How to run the Python scripts
-##For Training 
-##For Testing 
-###test the model on the image 
-###test the model on the video 
+
+# How to run the Python scripts
+## For Training 
+- Train the model for the first time on the road detection dataset CARL-DATASET.
+```
+python train.py --resume-training no.
+```
+## For Testing 
+### Test the model on the image 
+### Test the model on the video 
 

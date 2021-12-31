@@ -113,7 +113,7 @@ https://user-images.githubusercontent.com/71174927/147775570-bc58cbf2-7bcb-4c8b-
  
  
 # Citation
-- If you use this code or ideas from our paper, please cite our paper:
+- If you follow the code or ideas from our paper, please cite our paper:
 ```
 @ARTICLE{9646953,
   author={Rasib, Marya and Butt, Muhammad Atif and Riaz, Faisal and Sulaiman, Adel and Akram, Muhammad},

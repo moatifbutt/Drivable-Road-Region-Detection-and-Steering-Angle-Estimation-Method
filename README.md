@@ -54,21 +54,21 @@ Some of the pixel-level annotation examples are depicted below.
 
 # Description of folders and scripts
 My project includes the following files scripts and folders:
--  CARL_DATASET folder consists of six subfolders i.e. test, test_label, train, train_label, val, and val_label containing road images and corresponding label images.
--  train_seg_maps folder is used to save the prediction of the trained model on rondomly selected image during validation process.
--  runs folder contains the segmentation logs of the testing data.
--  utils folder contains the files such as (i) helper.py and (ii) metrics.py. 
--  config.py is the configation file, where dataset path and name and number of classes mentioned. Check every other parameters in config.py as per your requirement.
--  dataset.py includes the functions regarding dataset.
--  helper.py includes some helper functions.
--  train.py is used to train the model. 
--  road_detection_test.py is used to infer the model on test image.
--  road_detection_angle_estimation_test.py is used to infer the model on the test image and predict the angle. 
--  SteeringAngleUtils.py is used to compute the steering angle againt the given test image. 
--  test_vid.py is used to detect road on given video input. 
--  model.py is used to train the model from scratch.
--  engine.py is used to save the model as a model.pth.
--  metrics.py includes some helper functions regarding evalution of performance matrics.
+-  [CARL_DATASET](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/tree/main/CARL_DATASET) folder consists of six subfolders i.e. test, test_label, train, train_label, val, and val_label containing road images and corresponding label images.
+-  [runs](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/tree/main/runs) folder contains the segmentation logs of the validation data.
+-  [train_seg_maps](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/tree/main/train_seg_maps) folder is used to save the prediction of the trained model on rondomly selected image during validation process.
+-  [utils](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/tree/main/utils) folder contains the files such as (i) helper.py and (ii) metrics.py. 
+-  [config.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/config.py) is the configation file, where dataset path and name and number of classes mentioned. Check every other parameters in config.py as per your requirement.
+-  [dataset.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/dataset.py) includes the functions regarding dataset.
+-  [helper.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/utils/helpers.py) includes some helper functions.
+-  [train.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/train.py) is used to train the model. 
+-  [road_detection_test.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/road_detection_test.py) is used to infer the model on test image.
+-  [road_detection_angle_estimation_test.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/road_detection_angle_estimation_test.py) is used to infer the model on the test image and predict the angle. 
+-  [SteeringAngleUtils.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/SteeringAngleUtils.py) is used for computing the steering angle againt the given test image. 
+-  [test_vid.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/test_vid.py) is used to detect road on given video input. 
+-  [model.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/model.py) is used to train the model from scratch.
+-  [engine.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/engine.py) is used to save the model as a model.pth.
+-  [metrics.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/utils/metrics.py) includes some helper functions regarding evalution of performance matrics.
 
 # How to run the Python scripts
 ## For Training 

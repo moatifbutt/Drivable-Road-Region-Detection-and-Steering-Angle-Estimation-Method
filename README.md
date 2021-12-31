@@ -1,6 +1,11 @@
-# Pixel Level Segmentation Based Drivable Road Region Detection and Steering Angle Estimation Method for Autonomous Driving on Unstructured Roads
+# [Pixel Level Segmentation Based Drivable Road Region Detection and Steering Angle Estimation Method for Autonomous Driving on Unstructured Roads](https://ieeexplore.ieee.org/abstract/document/9646953)
+# Abstract
+With the recent emergence of deep learning, computer vision-based applications have demonstrated better applicability in accomplishing driving tasks including drivable road region detection, lane keeping and steering control in self-driving cars. Till recently, numerous lane-marking detection based steering control and lane keeping methods have been proposed to perform autonomous driving on urban well-structured roads. But the matter of fact is that these methods are not feasible on roads where lane markings are not available or faded over time which makes drivable road region detection a crucial task. Moreover, it is highly arduous task to estimate steering angle on deteriorated roads using existing road detection and steering angle estimation methods. To the best of our knowledge, there is no standard benchmark available for drivable road region detection and steering angle estimation on unstructured roads. To this end, we present a large-scale dataset for drivable region road detection, comprising of 15,000-pixel level high quality fine annotations. Alongside dataset, we also present an end-to-end drivable road region detection and steering angle estimation method to ensure the autonomous driving on generalized urban, rural, and unstructured road conditions. The proposed method performs pixel-level segmentation to extract drivable road region and quantifies lane interception to estimate the steering angle of self-driving cars. A comprehensive qualitative and quantitative analysis has been carried out to demonstrate the effectiveness of our proposed dataset, road detection and steering angle estimation methods.
+![image](https://user-images.githubusercontent.com/71174927/147829471-91ccb571-7df0-4eae-877e-7ebfa1e45d7f.png)
+
+**End to End semantic segmentation based drivable road detection and steering angle estimation on unstructured roads for self driving cars**
 # Discription of Project 
-A PyTorch implementation of the  Road Dataset semantic segmentation using FULLY CONVOLUTIONAL ResNet50 FPN model. The dataset has been taken from [CARL-DATASET](https://carl-dataset.github.io/index/ "CARL-DATASET").
+A PyTorch implementation of the Pixel level segmentation of the Road region using FULLY CONVOLUTIONAL ResNet50 FPN model. The dataset has been taken from [CARL-DATASET](https://carl-dataset.github.io/index/ "CARL-DATASET").
 
 ![4 13693_ov](https://user-images.githubusercontent.com/71174927/147745756-f0d18207-a9f5-4b88-872b-73b80f1d3731.jpg)
 ![5 09315_ov](https://user-images.githubusercontent.com/71174927/147828110-3b6c4ae7-2f37-4adc-9644-d903d4508e05.jpg)
@@ -14,8 +19,36 @@ A PyTorch implementation of the  Road Dataset semantic segmentation using FULLY 
 5. Tensorboard (https://pypi.org/project/tensorboard/), (pip install tensorboard)
 6. TensorboardX (https://pypi.org/project/tensorboardX/), (pip install tensorboardX)
 # Dataset 
-we have extended CARL-Dataset for road detection and segmentation task. As CARL-Dataset has been constructed over video sequences from 100+ cities of Pakistan. Consequently, this dataset contains diversities in terms of road types such as (i) highways (ii) motorways (iii) rural and urban streets (iv) provincial, (v) district, and (iv) hilly and distressed roads. To ensure the generalization of our proposed method, equal subsets of images from video sequences of all types of captured roads have been selected for the training and evaluation of proposed method. Download the dataset (link).
+we have extended CARL-Dataset for road detection and segmentation task. As CARL-Dataset has been constructed over video sequences from 100+ cities of Pakistan. Consequently, this dataset contains diversities in terms of road types such as 
+-   Highways 
+-   Motorways 
+-   Rural and Urban streets 
+-   Provincial 
+-   District
+-   Hilly and Distressed roads
 
+To ensure the generalization of our proposed method, equal subsets of images from video sequences of all types of captured roads have been selected for the training and evaluation of proposed method.
+
+Some samples taken from the video sequences of diverse roadways are shown Below.
+
+![4 24633 - Copy](https://user-images.githubusercontent.com/71174927/147830350-3eaa930d-e5e7-4903-a5aa-ddc76c7fe9bc.jpg)
+![MVI_7248 09920 - Copy](https://user-images.githubusercontent.com/71174927/147830253-945a5361-75bf-42b3-9a11-d0fbb153386e.jpg)
+![P2 00001 - Copy](https://user-images.githubusercontent.com/71174927/147830299-c1aa16a8-eb2b-4d86-8d81-e6b941afba4f.jpg)
+![GH011260 0063 - Copy](https://user-images.githubusercontent.com/71174927/147830309-3a35af95-53b9-410f-b582-0f91cfe0cc84.jpg)
+## Pixel-Level Annotations of dataset
+-  We present a pixel-level annotations benchmark comprising of high resolution (1920×1080 ) images and annotations, having road variability and diversity. 
+-  Our dataset consists of 15000 pixel-level annotations, in which each image is labeled as (i) road, and (ii) background, respectively. 
+-  To accomplish this task, we have used annotation tool [SuperAnnotate](https://www.superannotate.com/) to perform binary class-based pixel-level annotations. 
+-  In our binary class annotations, we have used RGB based colored polygons to represent defined classes. 
+
+Some of the pixel-level annotation examples are depicted below.
+
+![4 24633 jpg___fuse - Copy](https://user-images.githubusercontent.com/71174927/147830360-05e511d9-c18f-4917-bed1-788ee8422c4f.png)
+![MVI_7248 09920 jpg___fuse - Copy](https://user-images.githubusercontent.com/71174927/147830389-d890eded-e269-4552-a979-13132e5bf7cc.png)
+![P2 00001 jpg___fuse - Copy](https://user-images.githubusercontent.com/71174927/147830433-847dbc04-8a81-4724-a4ac-bf1256ea98da.png)
+![GH011260 0063 jpg___fuse - Copy](https://user-images.githubusercontent.com/71174927/147830371-9207f2c6-fcfc-476e-893e-3e5444a23e81.png)
+
+**Download the complete dataset from [Here](https://carl-dataset.github.io/index/ "CARL-DATASET")**.
 
 # Description of folders and scripts
 My project includes the following files scripts and folders:
@@ -72,10 +105,10 @@ example: python test_vid.py --input DSC_0006.mp4 --model-path model.pth
 
 ### Prediction results of the model over video
 
- https://user-images.githubusercontent.com/71174927/147775570-bc58cbf2-7bcb-4c8b-9c40-09ffe39feb7f.mp4
- 
-
 https://user-images.githubusercontent.com/71174927/147828349-4829a38e-8310-4bab-be8e-b1cc58a079e3.mp4
+
+https://user-images.githubusercontent.com/71174927/147775570-bc58cbf2-7bcb-4c8b-9c40-09ffe39feb7f.mp4
+ 
 
 # Citation
 - If you use this code or ideas from our paper, please cite our paper:

@@ -5,7 +5,7 @@ With the recent emergence of deep learning, computer vision-based applications h
 
 **End to End semantic segmentation based drivable road detection and steering angle estimation on unstructured roads for self driving cars**
 # Discription of Project 
-A PyTorch implementation of the Pixel level segmentation of the Road region using FULLY CONVOLUTIONAL ResNet50 FPN model. The dataset has been taken from [CARL-DATASET](https://carl-dataset.github.io/index/ "CARL-DATASET").
+A PyTorch implementation of the srivable road region detections and steering angle estimation methods proposed for the autonomous vehicle using FULLY CONVOLUTIONAL ResNet50 FPN model. The dataset has been taken from [CARL-DATASET](https://carl-dataset.github.io/index/ "CARL-DATASET").
 
 ![4 13693_ov](https://user-images.githubusercontent.com/71174927/147745756-f0d18207-a9f5-4b88-872b-73b80f1d3731.jpg)
 ![5 09315_ov](https://user-images.githubusercontent.com/71174927/147828110-3b6c4ae7-2f37-4adc-9644-d903d4508e05.jpg)

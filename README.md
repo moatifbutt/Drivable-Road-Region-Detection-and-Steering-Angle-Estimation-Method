@@ -54,7 +54,7 @@ Some of the pixel-level annotation examples are depicted below.
 
 # Description of folders and scripts
 My project includes the following files scripts and folders:
--  CARL_DATASET folder contains the only the road images and corresponding label images.
+-  CARL_DATASET folder consists of six subfolders i.e. test, test_label, train, train_label, val, and val_label containing road images and corresponding label images.
 -  train_seg_maps folder is used to save the prediction of the trained model on rondomly selected image during validation process.
 -  runs folder contains the segmentation logs of the testing data.
 -  utils folder contains the files such as (i) helper.py and (ii) metrics.py. 

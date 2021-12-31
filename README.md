@@ -64,8 +64,8 @@ My project includes the following files scripts and folders:
 -  [train.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/train.py) is used to train the model. 
 -  [road_detection_test.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/road_detection_test.py) is used to infer the model on test image.
 -  [road_detection_angle_estimation_test.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/road_detection_angle_estimation_test.py) is used to infer the model on the test image and predict the angle. 
--  [SteeringAngleUtils.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/SteeringAngleUtils.py) is used for computing the steering angle againt the given test image. 
--  [test_vid.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/test_vid.py) is used to detect road on given video input. 
+-  [SteeringAngleUtils.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/SteeringAngleUtils.py) is used for computing the steering angle against the given test image. 
+-  [test_vid.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/test_vid.py) is used to detect driveable road region on given video input. 
 -  [model.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/model.py) is used to train the model from scratch.
 -  [engine.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/engine.py) is used to save the model as a model.pth.
 -  [metrics.py](https://github.com/aatiibutt/Driveable-Road-Region-Detection--Angle-Estimation/blob/main/utils/metrics.py) includes some helper functions regarding evalution of performance matrics.

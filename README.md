@@ -19,7 +19,9 @@ A PyTorch implementation of the Pixel level segmentation of the Road region usin
 5. Tensorboard (https://pypi.org/project/tensorboard/), (pip install tensorboard)
 6. TensorboardX (https://pypi.org/project/tensorboardX/), (pip install tensorboardX)
 # Dataset 
-we have extended CARL-Dataset for road detection and segmentation task. As CARL-Dataset has been constructed over video sequences from 100+ cities of Pakistan. Consequently, this dataset contains diversities in terms of road types such as 
+We have extended [CARL-Dataset](https://carl-dataset.github.io/index/ "CARL-DATASET") for road detection and segmentation task. As CARL-Dataset has been constructed over video sequences from 100+ cities of Pakistan.
+
+This dataset contains diversities in terms of road types such as 
 -   Highways 
 -   Motorways 
 -   Rural and Urban streets 

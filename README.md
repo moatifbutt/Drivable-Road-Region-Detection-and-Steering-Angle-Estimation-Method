@@ -55,5 +55,15 @@ example: python test.py --model-path model.pth --input abc.jpg
 python test_vid.py --input <path to vid> --model-path <path to saved checkpoint/weight file>.
 ```
 example: python test_vid.py --input DSC_0006.mp4 --model-path model.pth
-#Acknowledgments
-This code borrows from [Sovit Ranjan Rath](https://github.com/sovit-123/CamVid-Image-Segmentation-using-FCN-ResNet50-with-PyTorch#readme) by rosalinity, e4e. Some snippets of steering angle estimation code from [David Tain](https://github.com/dctian/DeepPiCar/blob/master/driver/code/hand_coded_lane_follower.py).
+# Citation
+- If you use this code or ideas from our paper, please cite our paper:
+```
+@article{chong2021jojogan,
+  title={JoJoGAN: One Shot Face Stylization},
+  author={Chong, Min Jin and Forsyth, David},
+  journal={arXiv preprint arXiv:2112.11641},
+  year={2021}
+}
+```
+# Acknowledgments
+This code borrows from [Sovit Ranjan Rath](https://github.com/sovit-123/CamVid-Image-Segmentation-using-FCN-ResNet50-with-PyTorch#readme) by rosalinity. Some snippets of steering angle estimation code from [David Tain](https://github.com/dctian/DeepPiCar/blob/master/driver/code/hand_coded_lane_follower.py).

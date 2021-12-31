@@ -111,16 +111,20 @@ https://user-images.githubusercontent.com/71174927/147828349-4829a38e-8310-4bab-
 
 https://user-images.githubusercontent.com/71174927/147775570-bc58cbf2-7bcb-4c8b-9c40-09ffe39feb7f.mp4
  
-
+ 
 # Citation
 - If you use this code or ideas from our paper, please cite our paper:
 ```
-@article{chong2021jojogan,
-  title={JoJoGAN: One Shot Face Stylization},
-  author={Chong, Min Jin and Forsyth, David},
-  journal={arXiv preprint arXiv:2112.11641},
-  year={2021}
-}
+@ARTICLE{9646953,
+  author={Rasib, Marya and Butt, Muhammad Atif and Riaz, Faisal and Sulaiman, Adel and Akram, Muhammad},
+  journal={IEEE Access}, 
+  title={Pixel Level Segmentation Based Drivable Road Region Detection and Steering Angle Estimation Method for Autonomous Driving on Unstructured Roads}, 
+  year={2021},
+  volume={9},
+  number={},
+  pages={167855-167867},
+  doi={10.1109/ACCESS.2021.3134889}}
 ```
+
 # Acknowledgments
 This code inspired by [Sovit Ranjan Rath](https://github.com/sovit-123/CamVid-Image-Segmentation-using-FCN-ResNet50-with-PyTorch#readme). Some snippets of steering angle estimation code from [David Tain](https://github.com/dctian/DeepPiCar/blob/master/driver/code/hand_coded_lane_follower.py).

@@ -74,6 +74,9 @@ example: python test_vid.py --input DSC_0006.mp4 --model-path model.pth
 
  https://user-images.githubusercontent.com/71174927/147775570-bc58cbf2-7bcb-4c8b-9c40-09ffe39feb7f.mp4
  
+
+https://user-images.githubusercontent.com/71174927/147828349-4829a38e-8310-4bab-be8e-b1cc58a079e3.mp4
+
 # Citation
 - If you use this code or ideas from our paper, please cite our paper:
 ```

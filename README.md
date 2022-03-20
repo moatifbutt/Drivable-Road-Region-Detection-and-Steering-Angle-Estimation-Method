@@ -92,17 +92,14 @@ example: python test_vid.py --input DSC_0006.mp4 --model-path model.pth
 # Result
 ### Prediction results of the model over images 
 ![4 01351](https://user-images.githubusercontent.com/71174927/147828141-769fc8b3-a53c-41c7-b06c-8a3e85635685.jpg)
-![4 01351_seg](https://user-images.githubusercontent.com/71174927/147828139-81655746-21f9-4f49-b0ba-b2109ce895de.jpg)
-![4 01351_angle](https://user-images.githubusercontent.com/71174927/147828142-0f12be59-411c-41fd-b653-07c31cc9f93a.jpg)
 ![4 01351_ov](https://user-images.githubusercontent.com/71174927/147745717-d3065341-ab39-4c1f-8c7a-e3ec09dd443b.jpg)
+![4 01351_angle](https://user-images.githubusercontent.com/71174927/147828142-0f12be59-411c-41fd-b653-07c31cc9f93a.jpg)
 ![430611](https://user-images.githubusercontent.com/71174927/147827952-05d927d2-433a-413b-b881-0df1495cc7df.jpg)
-![4 30611_seg](https://user-images.githubusercontent.com/71174927/147827950-324be086-22da-45a1-a4c5-86c9366a8bc2.jpg)
-![4 30611_angle](https://user-images.githubusercontent.com/71174927/147827953-33cc81ba-db0e-4305-b31a-b2a192a746cc.jpg)
 ![4 30611_ov](https://user-images.githubusercontent.com/71174927/147827946-8c578d35-8984-46e4-97af-fd4553667882.jpg)
+![4 30611_angle](https://user-images.githubusercontent.com/71174927/147827953-33cc81ba-db0e-4305-b31a-b2a192a746cc.jpg)
 ![4 36892](https://user-images.githubusercontent.com/71174927/147828016-32237704-7e56-438d-9180-f05859b3fba2.jpg)
-![4 36892_seg](https://user-images.githubusercontent.com/71174927/147828015-6444cb18-f628-48bb-bfed-3b5006e7c06a.jpg)
-![4 36892_angle](https://user-images.githubusercontent.com/71174927/147828011-aad564df-fbe6-404d-8589-0e47ac0b329e.jpg)
 ![4 36892_ov](https://user-images.githubusercontent.com/71174927/147828013-b2af225e-40fe-48fb-90cc-e8021dfde8c0.jpg)
+![4 36892_angle](https://user-images.githubusercontent.com/71174927/147828011-aad564df-fbe6-404d-8589-0e47ac0b329e.jpg)
 
 
 ### Prediction results of the model over video

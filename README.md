@@ -34,7 +34,6 @@ To ensure generalization of our proposed method, equal subsets of images from vi
 Some samples taken from the video sequences of diverse roadways are shown Below.
 
 ![4 24633 - Copy](https://user-images.githubusercontent.com/71174927/147830350-3eaa930d-e5e7-4903-a5aa-ddc76c7fe9bc.jpg)
-![MVI_7248 09920 - Copy](https://user-images.githubusercontent.com/71174927/147830253-945a5361-75bf-42b3-9a11-d0fbb153386e.jpg)
 ![P2 00001 - Copy](https://user-images.githubusercontent.com/71174927/147830299-c1aa16a8-eb2b-4d86-8d81-e6b941afba4f.jpg)
 ![GH011260 0063 - Copy](https://user-images.githubusercontent.com/71174927/147830309-3a35af95-53b9-410f-b582-0f91cfe0cc84.jpg)
 ## Pixel-Level Annotations of dataset
@@ -46,7 +45,6 @@ Some samples taken from the video sequences of diverse roadways are shown Below.
 Some of the pixel-level annotation examples are depicted below.
 
 ![4 24633 jpg___fuse - Copy](https://user-images.githubusercontent.com/71174927/147830360-05e511d9-c18f-4917-bed1-788ee8422c4f.png)
-[MVI_7248 09920 jpg___fuse - Copy](https://user-images.githubusercontent.com/71174927/147830389-d890eded-e269-4552-a979-13132e5bf7cc.png) 
 ![P2 00001 jpg___fuse - Copy](https://user-images.githubusercontent.com/71174927/147830433-847dbc04-8a81-4724-a4ac-bf1256ea98da.png)
 ![GH011260 0063 jpg___fuse - Copy](https://user-images.githubusercontent.com/71174927/147830371-9207f2c6-fcfc-476e-893e-3e5444a23e81.png)
 

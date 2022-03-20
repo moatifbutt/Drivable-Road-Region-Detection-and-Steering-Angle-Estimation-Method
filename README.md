@@ -34,7 +34,8 @@ To ensure generalization of our proposed method, equal subsets of images from vi
 Some samples taken from the video sequences of diverse roadways are shown Below.
 
 ![4 24633 - Copy](https://user-images.githubusercontent.com/71174927/147830350-3eaa930d-e5e7-4903-a5aa-ddc76c7fe9bc.jpg)
-![MVI_7248 09920 - Copy](https://user-images.githubusercontent.com/71174927/147830253-945a5361-75bf-42b3-9a11-d0fbb153386e.jpg)
+
+<!---![MVI_7248 09920 - Copy](https://user-images.githubusercontent.com/71174927/147830253-945a5361-75bf-42b3-9a11-d0fbb153386e.jpg) -->
 ![P2 00001 - Copy](https://user-images.githubusercontent.com/71174927/147830299-c1aa16a8-eb2b-4d86-8d81-e6b941afba4f.jpg)
 ![GH011260 0063 - Copy](https://user-images.githubusercontent.com/71174927/147830309-3a35af95-53b9-410f-b582-0f91cfe0cc84.jpg)
 ## Pixel-Level Annotations of dataset

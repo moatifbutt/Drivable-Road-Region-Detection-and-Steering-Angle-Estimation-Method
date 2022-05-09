@@ -72,7 +72,7 @@ My project includes the following files scripts and folders:
 ## For Training 
 - Train the model for the first time on the road detection dataset CARL-DATASET. Before starting training, please place the downloaded dataset folders (train, train_labels, test, test_labels, val, and val_labels) in CARL-Dataset directory. After completion, verify the root paths and other configurations in 'config.py'.
 ```
-python train.py --resume-training no.
+python train.py --resume-training no
 ```
 ## For Testing 
 ### Test the model on the image 

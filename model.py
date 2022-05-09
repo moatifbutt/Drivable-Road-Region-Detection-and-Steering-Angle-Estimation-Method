@@ -17,10 +17,10 @@ def model(pretrained, requires_grad):
             param.requires_grad = False
 
     # change the classification FCNHead and make it learnable
-    model.classifier[4] = nn.Conv2d(512, 32, kernel_size=(1, 1))
+    model.classifier[4] = nn.Conv2d(512, 2, kernel_size=(1, 1))
 
     # change the aux_classification FCNHead and make it learnable
-    model.aux_classifier[4] = nn.Conv2d(256, 32, kernel_size=(1, 1))
+    model.aux_classifier[4] = nn.Conv2d(256, 2, kernel_size=(1, 1))
     
     return model
 
